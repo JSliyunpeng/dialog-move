@@ -1,0 +1,58 @@
+{
+  "name": "dialog-move",
+  "version": "1.0.4",
+  "main": "lib/dialog-move.umd.min.js",
+  "private": false,
+  "license": "MIT",
+  "author": "liyunpeng <1375603382@qq.com>",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name dialog-move --dest lib packages/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSliyunpeng/dialog-move.git"
+  },
+  "keywords": [
+    "dialog",
+    "dialog-move",
+    "对话框",
+    "可拖动",
+    "可移动",
+    "可拖动dialog"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
